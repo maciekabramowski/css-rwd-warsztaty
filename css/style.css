@@ -38,3 +38,10 @@
         width: 100%;
     }
 }
+
+@media print {
+    .col {
+        border: 3px solid red;
+        width: 25%;
+    }
+}
